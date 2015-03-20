@@ -35,6 +35,6 @@ Use ddply to produce averages for each activity and subject
 Use write.table to output the new file.
 
 # How to use
-Execute in R Studio the following command:
+Execute in R Studio the following commands:
 
 source("run_analysis.R")

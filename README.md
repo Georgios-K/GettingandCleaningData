@@ -33,3 +33,8 @@ Use cbind to combine the data in one file
 Use ddply to produce averages for each activity and subject
 
 Use write.table to output the new file.
+
+# How to use
+Execute in R Studio the following command:
+
+source("run_analysis.R")

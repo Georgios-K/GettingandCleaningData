@@ -87,18 +87,21 @@ tBodyGyroJerkMean
 
 The complete list of variables of each feature vector is available in 'features.txt'
 
-Activity Names: activity_labels.txt
-
-Activity Data: Y_train.txt, Y_test.txt
-
-Subject Data: subject_train.txt, subject_test.txt
 
 # Summary Choices: 
 
-The final data set has mean and standard deviation related variables ONLY.
+The final data set has mean and standard deviation related variables ONLY. features.txt is uded to identify them.
 
 Furthermore, it contains the Average of all mean and standard deviation related variables, for each activity and each subject.
 
 # Study Design:
+
+Script run_analysis.R cleans up the data and outputs a new file (after performing a few transformation steps).
+
+STEP1: Merge training and test data using rbind:  Y_train.txt & Y_test.txt for Activity, subject_train.txt & subject_test.txt for Object and X_train.txt & X_test.txt for Features.
+
+STEP2: Use grep to locate all the 'std' and 'mean' measurements from features.txt, make these 'std' and 'mean' descriptions more user friendly (using gsub) and include them in the merged activities from STEP1
+
+
 
 

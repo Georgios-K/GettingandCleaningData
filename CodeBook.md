@@ -96,7 +96,7 @@ Furthermore, it contains the Average of all mean and standard deviation related 
 
 # Study Design:
 
-Script run_analysis.R cleans up the data and outputs a file called clean_data_avg.txt  (after performing a few transformation steps).
+Script run_analysis.R cleans up the data and outputs a file called clean_data_avg.txt  (after performing a few transformation steps). library(plyr) is needed.
 
 STEP1: Set working directory ("C:\Users\George\Documents\R\UCI HAR Dataset") and then Read files and Merge training and test data using read.table & rbind:  
 

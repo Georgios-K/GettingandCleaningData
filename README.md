@@ -16,6 +16,20 @@ You should create one R script called run_analysis.R that does the following:
 
 5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-# Solution:
+# Solution (script is in run_analysis.R & codebook is in CodeBook.md):
 
+Set working directory
 
+Use read.table to read "UCI HAR Dataset" files 
+
+Merge test and train data files using rbind
+
+Use read table to Filter mean and standard deviation measurements from features.txt.
+
+Use descriptive activity names to label data
+
+Use cbind to combine the data in one file
+
+Use ddply to produce averages for each activity and subject
+
+Use write.table to output the new file.

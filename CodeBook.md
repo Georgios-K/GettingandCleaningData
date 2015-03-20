@@ -98,7 +98,9 @@ Furthermore, it contains the Average of all mean and standard deviation related 
 
 Script run_analysis.R cleans up the data and outputs a file called clean_data_avg.txt  (after performing a few transformation steps).
 
-STEP1: Set working directory ("C:\Users\George\Documents\R\UCI HAR Dataset") and then Read files and Merge training and test data using read.table & rbind:  Y_train.txt & Y_test.txt for Activity, subject_train.txt & subject_test.txt for Object and X_train.txt & X_test.txt for Features.
+STEP1: Set working directory ("C:\Users\George\Documents\R\UCI HAR Dataset") and then Read files and Merge training and test data using read.table & rbind:  
+
+Y_train.txt & Y_test.txt for Activity, subject_train.txt & subject_test.txt for Object and X_train.txt & X_test.txt for Features.
 
 STEP2: Use grep to locate all the 'std' and 'mean' measurements from features.txt, make these 'std' and 'mean' descriptions more user friendly (using gsub) and include them in the merged activities file from STEP1
 
@@ -106,6 +108,7 @@ STEP3: Name activities in the features data set using texts from activity_labels
 
 STEP4: Create a new data set using cbind. This new data set has descriptive names in its columns
 
-STEP5: Creates a 2nd tidy data set using finction ddply with the average of each variable for each activity and each subject. Outup this new data set in our working directory, named clean_data_avg.txt 
+STEP5: Creates a 2nd tidy data set using finction ddply with the average of each variable for each activity and each subject. 
+Output this new data set in our working directory, named clean_data_avg.txt 
 
 

@@ -98,10 +98,14 @@ Furthermore, it contains the Average of all mean and standard deviation related 
 
 Script run_analysis.R cleans up the data and outputs a new file (after performing a few transformation steps).
 
-STEP1: Merge training and test data using rbind:  Y_train.txt & Y_test.txt for Activity, subject_train.txt & subject_test.txt for Object and X_train.txt & X_test.txt for Features.
+STEP1: Read files and Merge training and test data using read.table & rbind:  Y_train.txt & Y_test.txt for Activity, subject_train.txt & subject_test.txt for Object and X_train.txt & X_test.txt for Features.
 
-STEP2: Use grep to locate all the 'std' and 'mean' measurements from features.txt, make these 'std' and 'mean' descriptions more user friendly (using gsub) and include them in the merged activities from STEP1
+STEP2: Use grep to locate all the 'std' and 'mean' measurements from features.txt, make these 'std' and 'mean' descriptions more user friendly (using gsub) and include them in the merged activities file from STEP1
 
+STEP3: Name activities in the features data set using texts from activity_labels.txt (use read.table)
 
+STEP4: Label the new data set with descriptive names
+
+STEP5: Creates a 2nd, independent tidy data set with the average of each variable for each activity and each subject
 
 

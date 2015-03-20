@@ -9,7 +9,6 @@ Data: Y_train.txt, Y_test.txt
 Subject Variable
 Names:
 Data: subject_train.txt, subject_test.txt
-
 Features Variable
 Names: features.txt
 Data: X_train.txt, X_test.txt

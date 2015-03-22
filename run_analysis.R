@@ -1,7 +1,7 @@
 # Source of data for this project: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 library(plyr)
 # set working directory
-setwd("C://Users//kanakisg//Documents//R//UCI HAR Dataset//")
+setwd("C://Users//George//Documents//R//UCI HAR Dataset//")
 
 # Merges the training and the test sets to create one data set.....:
 # For Activity combine “Y_train.txt” and “Y_test.txt”

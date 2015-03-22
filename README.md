@@ -19,6 +19,8 @@ You should create one R script called run_analysis.R that does the following:
 # Solution 
 # (script is in run_analysis.R & codebook is in CodeBook.md):
 
+run_analysis.R does the foolowing:
+
 Include library(plyr)
 
 Set working directory
@@ -38,6 +40,10 @@ Use ddply to produce averages for each activity and subject
 Use write.table to output the new file.
 
 # How to use
+
+(Directory: C:/Users/George/Documents/R/UCI HAR Dataset)
+
 Execute in R Studio the following commands:
 
 source("run_analysis.R")
+
